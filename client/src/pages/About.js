@@ -3,7 +3,7 @@ import Layout from '../components/Layout/Layout'
 
 const About = () => {
   return (
-    <Layout>
+    <Layout title={"About us - Ecommerce App"}>
         <div className="row contactus ">
         <div className="col-md-6 ">
           <img
@@ -22,4 +22,10 @@ const About = () => {
   );
 };
 
+Layout.defaultProps ={
+  title: "Ecommerce app - shop now",
+  description: "A online platform for plant lover",
+  keywords: "mongodb, react, nodeJS",
+  author: "divyansh"
+};
 export default About
