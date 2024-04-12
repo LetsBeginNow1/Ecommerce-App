@@ -6,6 +6,7 @@ import toast from 'react-hot-toast';
 import "../../styles/AuthStyles.css";
 
 
+
 const Register = () => {
     const [name,setName] = useState("");
     const [email,setEmail] =useState("");
@@ -34,7 +35,7 @@ const handleSubmit = async(e) => {
   return (
     <Layout title={"Register - Ecommerce App"}>
         <div className='form-container'>
-            <h1>Register Page</h1>
+            <h1>Register Form</h1>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                     <input type="text" 

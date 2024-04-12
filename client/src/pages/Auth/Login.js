@@ -40,7 +40,7 @@ const handleSubmit = async(e) => {
   return (
     <Layout title={"Register - Ecommerce App"}>
         <div className='form-container'>
-            <h1>Login Page</h1>
+            <h1>Login Form</h1>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                    
